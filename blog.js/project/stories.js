@@ -1,4 +1,10 @@
 const listArticles = [
+    {
+        date: "August 1, 2026",
+        title: "My first post, just a test",
+        teaser: "Just to make sure my code is working properly",
+        lien: "../../articles.html/project/stories/art.html"
+    },
 
 ]
 
