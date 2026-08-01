@@ -42,7 +42,7 @@ function genererPagination() {
         if (i === currentPage) {
             button.classList.add('active');
         }
-    }
+    
 
     button.addEventListener('click', () => {
         currentPage = i;
@@ -50,6 +50,7 @@ function genererPagination() {
     });
 
     containerPagination.appendChild(button);
+    }
 }
 
 articleProjection();
