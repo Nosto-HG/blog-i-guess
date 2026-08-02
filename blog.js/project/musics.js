@@ -21,10 +21,10 @@ function articleProjection() {
     const articlesOfThePage = listArticles.slice(indexBegin, indexEnd);
     articlesOfThePage.forEach(articles => {
         containerArticles.innerHTML += `
-        <small>${articles.date}</small>
+        <small class="gold">${articles.date}</small>
         <h2>${articles.title}</h2>
         <p>${articles.teaser}</p>
-        <a href="${articles.lien}">Read the entire article</a>
+        <a class="gold" href="${articles.lien}">Read the entire article</a>
         `;
     });
     genererPagination();
