@@ -2,3 +2,32 @@
     background-color:blueviolet;
     color:white;
 }
+body {
+        background-image: url('../assets/img/prof/img1.jpeg');
+        background-size: cover;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+      }
+      h1, h2, p {
+        color: white;
+        text-align: center;
+        margin-top: 70px;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+      }
+      button {
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 30px;
+        padding-inline: 20px;
+        margin-top: 50px;
+      }
+      .button1 {
+        margin-left: 120px;
+      }
+      a {
+        text-decoration: none;
+        color:black;
+      }
