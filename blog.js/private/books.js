@@ -1,4 +1,10 @@
 const listArticles = [
+    {
+        date: "August 3 2026",
+        title: "Excellence by Robert Greene",
+        teaser: "Full review with updates by chapter",
+        lien: "../../articles.html/private/books/b.html",
+    },
 
 ]
 
