@@ -3,7 +3,7 @@
     color:white;
 }
 body {
-        background-image: url('../assets/img/prof/img1.jpeg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/img/prof/img1.jpeg');
         background-size: cover;
         min-height: 100vh;
         background-repeat: no-repeat;
