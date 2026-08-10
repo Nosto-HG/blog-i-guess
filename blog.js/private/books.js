@@ -5,6 +5,12 @@ const listArticles = [
         teaser: "Full review with updates by chapter",
         lien: "../../articles.html/private/books/b.html",
     },
+    {
+        date: "August 10 2026",
+        title: "God Of Fury By Rina Kent",
+        teaser: " full review",
+        lien: "../../articles.html/private/books/b1.html",
+    },
 
 ]
 
@@ -31,6 +37,7 @@ function articleProjection() {
         <h2>${articles.title}</h2>
         <p>${articles.teaser}</p>
         <a class="gold" href="${articles.lien}">Read the entire article</a>
+        <p> </p>
         `;
     });
     genererPagination();

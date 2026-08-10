@@ -25,6 +25,7 @@ function articleProjection() {
         <h2>${articles.title}</h2>
         <p>${articles.teaser}</p>
         <a class="gold" href="${articles.lien}">Read the entire article</a>
+        <p> </p>
         `;
     });
     genererPagination();

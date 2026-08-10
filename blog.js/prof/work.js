@@ -1,4 +1,10 @@
 const listArticles = [
+    {
+        date: "August 10 2026",
+        title: "daily events",
+        teaser: "Talking about some little events in my job AHAH",
+        lien: "../../articles.html/prof/work/w.html"
+    }
 
 ]
 
@@ -25,6 +31,7 @@ function articleProjection() {
         <h2>${articles.title}</h2>
         <p>${articles.teaser}</p>
         <a class="gold" href="${articles.lien}">Read the entire article</a>
+        <p> </p>
         `;
     });
     genererPagination();
