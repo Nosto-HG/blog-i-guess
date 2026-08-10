@@ -1,4 +1,10 @@
 const listArticles = [
+    {
+        date: "August 6 2026",
+        title: "Anxiety",
+        teaser: "talking about my stress in order to feel better",
+        lien: "../../articles.html/private/mental health/m.html"
+    }
 
 ]
 
